@@ -37,5 +37,5 @@ For this particular project, we plan on leveraging data analytics and machine le
 
 ### How to run the demo
 - Run ```git clone https://github.com/hyaghmmour/hack-the-pandemic.git``` in your terminal
-- Run ```cd hack-the-pandemic-submission``` to open the project
+- Run ```cd hack-the-pandemic``` to open the project
 - Run ```yarn start``` and enjoy the demo!
