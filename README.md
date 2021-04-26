@@ -36,5 +36,6 @@ The biggest difficulty would most likely be acquiring the proper data parameters
 For this particular project, we plan on leveraging data analytics and machine learning using Python. Secondly, we will need a backend cloud platform to help speed up processes on remote servers for which AWS or GCP could be used. Next, we need a way to visualize this data in the front end, of which we could use React.js. Finally, we need a way for the frontend to talk to our backend, for this we would need to create an API with Node or Express.js.
 
 ### How to run the demo
-- Run ```git clone``` https://github.com/Algo-Aid/algo-aid-submission.git in your terminal
+- Run ```git clone https://github.com/Algo-Aid/algo-aid-submission.git``` in your terminal
+- Run ```cd hack-the-pandemic-submission``` to open the project
 - Run ```yarn start``` and enjoy the demo!
