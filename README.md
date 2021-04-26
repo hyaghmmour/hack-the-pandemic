@@ -17,7 +17,7 @@ Subsequently, this influx of data allows for advanced data modeling and analytic
   - Leveraging AI will increase the accuracy of data
   - Utilizing blockchain will increase security
 
-Impact
+### Impact
 
 - Hospitals are better prepared in terms of knowing what volume of patients to expect based on predictions.
 - The supply chain of PPEs and other protected health materials is more adapted to the trends in COVID cases so as to reduce periods of scarcity of these supplies in the hospitals.
@@ -34,3 +34,7 @@ The biggest difficulty would most likely be acquiring the proper data parameters
 ### Technologies
 
 For this particular project, we plan on leveraging data analytics and machine learning using Python. Secondly, we will need a backend cloud platform to help speed up processes on remote servers for which AWS or GCP could be used. Next, we need a way to visualize this data in the front end, of which we could use React.js. Finally, we need a way for the frontend to talk to our backend, for this we would need to create an API with Node or Express.js.
+
+### How to run the demo
+- Run git clone https://github.com/Algo-Aid/algo-aid-submission.git in your terminal
+- Run yarn start and enjoy the demo!
