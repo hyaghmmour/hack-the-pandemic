@@ -38,5 +38,6 @@ For this particular project, we plan on leveraging data analytics and machine le
 ### How to run the demo
 - Run ```git clone https://github.com/hyaghmmour/hack-the-pandemic.git``` in your terminal
 - Run ```cd hack-the-pandemic``` to open the project
-- Make sure you have ```react-scripts``` and ```yarn/npm``` installed, it will not work if you dont
+- Make sure you have ```yarn/npm``` installed, it will not work if you dont
+- If ```react-scripts``` is not installed, run ```npm install react-scripts```, once completed, move on
 - Run ```yarn start``` or ```npm run start``` and enjoy the demo!
