@@ -17,6 +17,7 @@ class LineChart extends React.Component {
             </div>
         }
         this.changeSelected = this.changeSelected.bind(this)
+        this.onRender = this.onRender.bind(this)
     }
 
     changeSelected(reg) {
@@ -44,20 +45,21 @@ class LineChart extends React.Component {
         })
     }
 
-    componentDidMount() {
+    onRender() {
         let options = this.state.data.regions.map((item) => {
             return item.region
         })
-        this.setState({regions: options})
+        return options
     }
 
     render() {
-
+        
         return (
             <div className="object-wrapper">
+                <Regions data={this.onRender()} editFunction={this.changeSelected}/>
                 {/* <select className="regions" onChange={this.changeSelected}>{this.state.regions}</select> */}
                 {this.state.selected}
-                <Regions data={this.state.regions} editFunction={this.changeSelected}/>
+                
           </div>
         );
       }
